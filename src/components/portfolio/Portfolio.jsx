@@ -13,8 +13,8 @@ const data = [
 {
   id:1,
   image:IMG1,
-  title:'Crypto Currency Dashboard & Financial Visualization',
-  github:'https://github.com',
+  title:'Dashboard Design using HTML and CSS',
+  github:'https://kajal4497.github.io/Wordpress-Dashboard/',
   // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
 },
 {
