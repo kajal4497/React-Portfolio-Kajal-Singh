@@ -91,16 +91,51 @@ export const experience = () => {
               
             </article>
 
-            {/* <article className='experience_details'>
+            <article className='experience_details'>
               <BsPatchCheckFill className='experience_details_icon'/ >
               <div>
                 <h4>Expressjs</h4>
               </div>
              
-            </article> */}
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details_icon'/ >
+              <div>
+                <h4>MongoDB</h4>
+              </div>
+             
+            </article>
       </div>
 
         </div>
+        <div className='experience_backend'>
+        <h3>Design </h3>
+          <div className='experience_content'>
+            
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details_icon'/ >
+              <div>
+                  <h4>Canva</h4>
+              </div>
+              
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details_icon'/ >
+              <div>
+                  <h4>Photoshop</h4>
+              </div>
+              
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details_icon'/ >
+              <div>
+                  <h4>Figma</h4>
+              </div>
+              
+            </article>
+            </div>
+            
+      </div>
       </div>
     </section>
   )

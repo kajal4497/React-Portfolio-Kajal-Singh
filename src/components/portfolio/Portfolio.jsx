@@ -2,9 +2,9 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
-// import IMG3 from '../../assets/portfolio3.jpg'
-// import IMG4 from '../../assets/portfolio4.jpg'
-// import IMG5 from '../../assets/portfolio5.png'
+import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
+import IMG5 from '../../assets/portfolio5.jpg'
 // import IMG6 from '../../assets/portfolio6.jpg'
 
 //Do not use the images in production
@@ -20,31 +20,31 @@ const data = [
 {
   id:2,
   image:IMG2,
-  title:'Crypto Currency Dashboard & Financial Visualization',
+  title:'Weather App using HTML, CSS, JavaScript, NodeJS, openWeather API',
   github:'https://github.com',
 //   // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
  },
-// {
-//   id:3,
-//   image:IMG3,
-//   title:'Crypto Currency Dashboard & Financial Visualization',
-//   github:'https://github.com',
-//   // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
-// },
-// {
-//   id:4,
-//   image:IMG4,
-//   title:'Crypto Currency Dashboard & Financial Visualization',
-//   github:'https://github.com',
-//   // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
-// },
-// {
-//   id:5,
-//   image:IMG5,
-//   title:'Crypto Currency Dashboard & Financial Visualization',
-//   github:'https://github.com',
-//   // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
-// },
+{
+  id:3,
+  image:IMG3,
+  title:'A Website Design using HTML, CSS, Bootstrap',
+  github:'https://kajal4497.github.io/TinDog-Website/',
+  // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
+},
+{
+  id:4,
+  image:IMG4,
+  title:'Attorney Website using Divi WordPress',
+  github:'https://www.goforthlucas.com/',
+  // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
+},
+{
+  id:5,
+  image:IMG5,
+  title:'Attorney Website using Divi WordPress',
+  github:'https://www.markjobrien.com/',
+  // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
+},
 // {
 //   id:6,
 //   image:IMG6,
