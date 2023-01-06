@@ -8,7 +8,7 @@ import {AiOutlineMessage} from 'react-icons/ai'
 import { useState } from 'react'
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#about')
   return (
     <nav>
       <a href="#" onClick={() =>setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>

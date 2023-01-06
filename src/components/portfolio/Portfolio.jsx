@@ -21,7 +21,7 @@ const data = [
   id:2,
   image:IMG2,
   title:'Weather App using HTML, CSS, JavaScript, NodeJS, openWeather API',
-  github:'https://github.com',
+  github:'https://kajal4497.github.io/Weather-App/',
 //   // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
  },
 {
@@ -62,7 +62,7 @@ const portfolio = () => {
 
        <div className='container portfolio_container'>
         {
-          data.map(({id, image, title, github, demo}) =>
+          data.map(({id, image, title, github}) =>
           {
             return(
 
