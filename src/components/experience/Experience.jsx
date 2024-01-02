@@ -14,17 +14,24 @@ export const experience = () => {
           <h3>Frontend Development </h3>
           <div className='experience_content'>
             
+          <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details_icon'/ >
+                <div>
+                  <h4>ReactJs</h4>
+                </div>
+                
+            </article>
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details_icon' / >
                 <div>
-                  <h4>HTML</h4>
+                  <h4>HTML5</h4>
                 </div>
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details_icon'/ >
                 <div>
-                  <h4>CSS</h4>
+                  <h4>CSS3</h4>
                 </div>
             </article>
 
@@ -42,13 +49,7 @@ export const experience = () => {
                 </div>
             </article>
 
-            <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details_icon'/ >
-                <div>
-                  <h4>ReactJs</h4>
-                </div>
-                
-            </article>
+          
           </div>
         <div>
       </div>
@@ -126,13 +127,13 @@ export const experience = () => {
               </div>
               
             </article>
-            <article className='experience_details'>
+            {/* <article className='experience_details'>
               <BsPatchCheckFill className='experience_details_icon'/ >
               <div>
                   <h4>Figma</h4>
               </div>
               
-            </article>
+            </article> */}
             </div>
             
       </div>

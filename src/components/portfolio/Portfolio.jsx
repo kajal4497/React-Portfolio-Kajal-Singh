@@ -5,7 +5,7 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
-// import IMG6 from '../../assets/portfolio6.jpg'
+// import IMG6 from '../../assets/project6.jpg'
 
 //Do not use the images in production
 
@@ -44,15 +44,18 @@ const data = [
   title:'Attorney Website using Divi WordPress',
   github:'https://www.markjobrien.com/',
   // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
-},
+}
+
+
 // {
-//   id:6,
-//   image:IMG6,
-//   title:'Crypto Currency Dashboard & Financial Visualization',
-//   github:'https://github.com',
-//   // demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
-// }]
+//    id:6,
+//    image:IMG6,
+//    title:'Attorney Website using WordPress',
+//    github:'https://www.mrblaw.com/',
+//   //demo: 'https://dribbble.com/shots/19261807-Aspect-Lab-Web-Design-for-AI-Marketing-Tool'
+//  }
 ]
+
 
 const portfolio = () => {
   return (

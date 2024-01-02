@@ -43,89 +43,89 @@ const data = [
 
 
 
-const testimonial = () => {
-  return (
-    <section id='testimonials'>
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+// const testimonial = () => {
+//   return (
+//     <section id='testimonials'>
+//       <h5>Review from clients</h5>
+//       <h2>Testimonials</h2>
 
-      <Swiper className="container testimonials_container"
-      modules={[Pagination]}
-      spaceBetween={50}
-      slidesPerView={1}
-      pagination={{ clickable: true }}>
-        {
-        data.map(({avatar, name, review},index) => {
-        return(
-          <SwiperSlide key={index} className="testimonial">
-          <div className='client_avatar'>
-            <img src={avatar}/>
-          </div>
-          <h5 className='client_name'>{name}</h5>
-          <small className='client_review'>{review}</small>
+//       <Swiper className="container testimonials_container"
+//       modules={[Pagination]}
+//       spaceBetween={50}
+//       slidesPerView={1}
+//       pagination={{ clickable: true }}>
+//         {
+//         data.map(({avatar, name, review},index) => {
+//         return(
+//           <SwiperSlide key={index} className="testimonial">
+//           <div className='client_avatar'>
+//             <img src={avatar}/>
+//           </div>
+//           <h5 className='client_name'>{name}</h5>
+//           <small className='client_review'>{review}</small>
 
 
 
-          </SwiperSlide>
+//           </SwiperSlide>
 
-        )
+//         )
         
 
-        })
-      }
+//         })
+//       }
     
 
-        {/* <article className='testimonial'>
-          <div className='client_avatar'>
-            <img src={AVTR1} alt="Avatar One" />
-            </div>
-            <h5 className='client_name'>Ernest Achiever</h5>
-            <small className='client_review'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Delectus ea sapiente ipsam ipsum deserunt optio sunt fugit nobis ex quisquam animi,
-              asperiores culpa quaerat ab? Reprehenderit at error nihil culpa?
-            </small>
-        </article>
+//          <article className='testimonial'>
+//           <div className='client_avatar'>
+//             <img src={AVTR1} alt="Avatar One" />
+//             </div>
+//             <h5 className='client_name'>Ernest Achiever</h5>
+//             <small className='client_review'>
+//               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+//               Delectus ea sapiente ipsam ipsum deserunt optio sunt fugit nobis ex quisquam animi,
+//               asperiores culpa quaerat ab? Reprehenderit at error nihil culpa?
+//             </small>
+//         </article>
 
-        <article className='testimonial'>
-          <div className='client_avatar'>
-            <img src={AVTR2} alt="Avatar Two" />
-            </div>
-            <h5 className='client_name'>Ernest Achiever</h5>
-            <small className='client_review'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Delectus ea sapiente ipsam ipsum deserunt optio sunt fugit nobis ex quisquam animi,
-              asperiores culpa quaerat ab? Reprehenderit at error nihil culpa?
-            </small>
-        </article>
+//         <article className='testimonial'>
+//           <div className='client_avatar'>
+//             <img src={AVTR2} alt="Avatar Two" />
+//             </div>
+//             <h5 className='client_name'>Ernest Achiever</h5>
+//             <small className='client_review'>
+//               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+//               Delectus ea sapiente ipsam ipsum deserunt optio sunt fugit nobis ex quisquam animi,
+//               asperiores culpa quaerat ab? Reprehenderit at error nihil culpa?
+//             </small>
+//         </article>
 
-        <article className='testimonial'>
-          <div className='client_avatar'>
-            <img src={AVTR3} alt="Avatar Three" />
-          </div>
-            <h5 className='client_name'>Ernest Achiever</h5>
-            <small className='client_review'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Delectus ea sapiente ipsam ipsum deserunt optio sunt fugit nobis ex quisquam animi,
-              asperiores culpa quaerat ab? Reprehenderit at error nihil culpa?
-            </small>
-         </article>
+//         <article className='testimonial'>
+//           <div className='client_avatar'>
+//             <img src={AVTR3} alt="Avatar Three" />
+//           </div>
+//             <h5 className='client_name'>Ernest Achiever</h5>
+//             <small className='client_review'>
+//               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+//               Delectus ea sapiente ipsam ipsum deserunt optio sunt fugit nobis ex quisquam animi,
+//               asperiores culpa quaerat ab? Reprehenderit at error nihil culpa?
+//             </small>
+//          </article>
 
-         <article className='testimonial'>
-          <div className='client_avatar'>
-            <img src={AVTR4} alt="Avatar Four" />
-          </div>
-            <h5 className='client_name'>Ernest Achiever</h5>
-            <small className='client_review'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Delectus ea sapiente ipsam ipsum deserunt optio sunt fugit nobis ex quisquam animi,
-              asperiores culpa quaerat ab? Reprehenderit at error nihil culpa?
-            </small>
-         </article> */}
+//          <article className='testimonial'>
+//           <div className='client_avatar'>
+//             <img src={AVTR4} alt="Avatar Four" />
+//           </div>
+//             <h5 className='client_name'>Ernest Achiever</h5>
+//             <small className='client_review'>
+//               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+//               Delectus ea sapiente ipsam ipsum deserunt optio sunt fugit nobis ex quisquam animi,
+//               asperiores culpa quaerat ab? Reprehenderit at error nihil culpa?
+//             </small>
+//          </article> 
 
-      </Swiper>
-    </section>
-  )
-}
+//       </Swiper>
+//     </section>
+//   )
+// }
 
-export default testimonial
+// export default testimonial
