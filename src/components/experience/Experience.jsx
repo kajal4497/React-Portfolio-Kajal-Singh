@@ -116,7 +116,7 @@ export const experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details_icon'/ >
               <div>
-                  <h4>Canva</h4>
+                  <h4>Illustrator</h4>
               </div>
               
             </article>

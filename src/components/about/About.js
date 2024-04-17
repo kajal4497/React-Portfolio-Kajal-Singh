@@ -3,7 +3,7 @@ import './about.css'
 import ME from '../../assets/me-about.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+// import {VscFolderLibrary} from 'react-icons/vsc'
 
 const about = () => {
   return (
@@ -24,7 +24,7 @@ const about = () => {
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
-              <small>4.5+ Years</small>
+              <small>5 Years</small>
             </article>
 
             <article className='about_card'>
@@ -33,14 +33,14 @@ const about = () => {
               <small>Front End Developer</small>
             </article>
 
-            <article className='about_card'>
+            {/* <article className='about_card'>
               <VscFolderLibrary className='about_icon'/>
               <h5>MatrIoT Solutions</h5>
               <small>Trainee</small>
-            </article>
+            </article> */}
           </div>
 
-          <p>My experience aligns with multiple website development/maintenance projects at Thomson Reuters. Over the past 4.5+ years as a front-end developer, I have designed, developed, and customized highly responsive and compatible websites.
+          <p>My experience aligns with multiple website development/maintenance projects at Thomson Reuters. Over the past 5 years as a front-end developer, I have designed, developed, and customized highly responsive and compatible websites.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's talk</a>
